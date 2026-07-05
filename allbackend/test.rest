@@ -1,0 +1,26 @@
+### TEST GET / website
+GET http://localhost:1998
+
+### TEST GET /dashboard website
+
+GET http://localhost:1998/dashboard
+
+
+### TEST GET /api/data api endpoint
+
+GET http://localhost:1998/api/data
+
+
+### TEST POST use to add a new user
+
+POST http://localhost:1998/api/data
+Content-Type: application/json
+
+{
+    "boyf": "no"
+}
+
+
+### TEST of DELETE an items
+
+DELETE http://localhost:1998/api/data
